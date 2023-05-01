@@ -229,9 +229,10 @@ nav ul li a:hover::after {
 
 .work img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
     display: block;
     transition: transform 0.5s;
+    padding: 10px;
 }
 
 .layer {
@@ -378,7 +379,12 @@ form .btn2 {
 .copyright i {
     color: #ff004f;
 }
-
+.about-col-2 h1{
+    margin-bottom: 20px;
+}
+.container{
+    padding: 10px;
+}
 
 /* ------------------------ CSS for small screen----------- */
 nav .fas{
