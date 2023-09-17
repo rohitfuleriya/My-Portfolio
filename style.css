@@ -215,17 +215,10 @@ nav ul li a:hover::after {
 }
 
 .work-list {
-<<<<<<< HEAD
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 10px;
     overflow-x: auto;
-=======
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin: 50px;
->>>>>>> c05f858cbc476d6339df89534acefbce46468116
 }
 
 .work {
