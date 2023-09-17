@@ -215,14 +215,22 @@ nav ul li a:hover::after {
 }
 
 .work-list {
+<<<<<<< HEAD
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 144px;
     overflow-x: auto;
+=======
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin: 50px;
+>>>>>>> c05f858cbc476d6339df89534acefbce46468116
 }
 
 .work {
     border-radius: 10px;
+<<<<<<< HEAD
     margin-top: 50px;
     position: relative;
     scrollbar-width: none;
@@ -230,6 +238,11 @@ nav ul li a:hover::after {
 .work-list::-webkit-scrollbar {
     display: none;
   }
+=======
+    position: relative;
+    overflow: hidden;
+}
+>>>>>>> c05f858cbc476d6339df89534acefbce46468116
 
 .work img {
     width: 100%;
@@ -237,8 +250,11 @@ nav ul li a:hover::after {
     display: block;
     transition: transform 0.5s;
     padding: 10px;
+<<<<<<< HEAD
     height: 410px;
     width: 325px;
+=======
+>>>>>>> c05f858cbc476d6339df89534acefbce46468116
 }
 
 .layer {
@@ -278,9 +294,19 @@ nav ul li a:hover::after {
     text-align: center;
 }
 
+<<<<<<< HEAD
 .work:hover .layer {
     height: 100%;
     
+=======
+.work:hover img {
+    transform: scale(1.1);
+
+}
+
+.work:hover .layer {
+    height: 100%;
+>>>>>>> c05f858cbc476d6339df89534acefbce46468116
 }
 
 .btn {
@@ -288,7 +314,11 @@ nav ul li a:hover::after {
     margin: 50px auto;
     width: fit-content;
     border: 1px solid #ff004f;
+<<<<<<< HEAD
     padding: 10px 10px;
+=======
+    padding: 14px 50px;
+>>>>>>> c05f858cbc476d6339df89534acefbce46468116
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
@@ -300,6 +330,7 @@ nav ul li a:hover::after {
 
 }
 
+<<<<<<< HEAD
 /* ... (your existing CSS) ... */
 
 .prev-button,
@@ -333,6 +364,8 @@ nav ul li a:hover::after {
 /* ... (your existing CSS) ... */
 
 
+=======
+>>>>>>> c05f858cbc476d6339df89534acefbce46468116
 /* -----------------------Contact--------------- */
 
 .contact-left {
@@ -418,9 +451,12 @@ form .btn2 {
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .slider-wrapper {
     position: relative;
   }
+=======
+>>>>>>> c05f858cbc476d6339df89534acefbce46468116
 /* ------------------------ CSS for small screen----------- */
 nav .fas{
     display: none;
