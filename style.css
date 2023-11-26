@@ -493,6 +493,13 @@ form .btn2 {
 }
 
 @media only screen and (max-width: 600px) {
+    #header {
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/about-img-phone1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
     .tab-links {
         margin-right: 15px;
         font-size: 18px;
